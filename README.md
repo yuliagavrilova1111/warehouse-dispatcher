@@ -108,7 +108,7 @@ uvicorn src.main:app --reload
 ![Список заявок(1)](screenshots/orders1.1.png)
 ![Список заявок(2)](screenshots/orders1.2.png)
 
-### Запуск через Docker (опционально)
+### Запуск через Docker
 ```bash
 docker build -t warehouse-dispatcher .
 docker run -p 8000:8000 warehouse-dispatcher
